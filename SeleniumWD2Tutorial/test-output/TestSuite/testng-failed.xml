@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestSuite]">
+  <test thread-count="5" name="ExpediaSearchPage(failed)">
+    <classes>
+      <class name="tutorial.selenium.TestNG_TestCASe">
+        <methods>
+          <include name="closeModal"/>
+          <include name="afterMethod"/>
+          <include name="setUp"/>
+          <include name="checkFlight"/>
+        </methods>
+      </class> <!-- tutorial.selenium.TestNG_TestCASe -->
+    </classes>
+  </test> <!-- ExpediaSearchPage(failed) -->
+</suite> <!-- Failed suite [TestSuite] -->

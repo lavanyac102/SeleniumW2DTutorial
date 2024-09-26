@@ -1,0 +1,14 @@
+<suite name="test">
+	<test name="cars" preserve-order="true">
+	<groups>
+		<run>
+			<include name="audi"></include>
+		</run>
+	</groups>
+	
+		<classes>
+			<class name="pages.classes.TestNG_Grouping">
+			</class>
+		</classes>
+	</test>
+</suite>
