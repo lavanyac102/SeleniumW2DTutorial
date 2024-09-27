@@ -1,0 +1,17 @@
+<suite name="testSuite">
+<test name="TestNG parameter test" preserve-order="true">
+<parameter name="fromCity" value="Bengaluru"></parameter>
+<parameter name="toCity" value="pune"></parameter>
+<parameter name="departureDate" value="30"></parameter>
+<classes>
+	<class name="pages.classes.TestNG_Parameters">
+		<methods>
+			<include name="closeModal"></include>
+			<include name="checkFlightNew"></include>
+			
+		</methods>
+	</class>
+	
+</classes>
+</test>
+</suite>

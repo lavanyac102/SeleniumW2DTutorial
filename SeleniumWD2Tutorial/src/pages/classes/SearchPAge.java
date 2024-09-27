@@ -19,6 +19,15 @@ public class SearchPAge {
 		element.click();
 		Thread.sleep(3000);
 	}
+	
+	public static void clearAllFields(WebDriver driver)
+	{
+		driver.findElement(By.id("fromCity")).clear();
+		driver.findElement(By.id("toCity")).clear();
+		
+		
+		
+	}
 	public static WebElement fromCityTB(WebDriver driver) {
 		element = driver.findElement(By.id("fromCity"));
 		return element;

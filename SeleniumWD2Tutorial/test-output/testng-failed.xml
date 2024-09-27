@@ -1,16 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [TestSuite]">
-  <test thread-count="5" name="ExpediaSearchPage(failed)">
+<suite name="Failed suite [testSuite]">
+  <test thread-count="5" name="TestNG parameter test(failed)">
+    <parameter name="toCity" value="pune"/>
+    <parameter name="departureDate" value="30"/>
+    <parameter name="fromCity" value="Bengaluru"/>
+    <parameter name="browserType" value="chrome"/>
     <classes>
-      <class name="tutorial.selenium.TestNG_TestCASe">
+      <class name="pages.classes.TestNGParallelAndMultipleBrowser">
         <methods>
-          <include name="closeModal"/>
           <include name="afterMethod"/>
           <include name="setUp"/>
-          <include name="checkFlight"/>
+          <include name="closeModal"/>
         </methods>
-      </class> <!-- tutorial.selenium.TestNG_TestCASe -->
+      </class> <!-- pages.classes.TestNGParallelAndMultipleBrowser -->
     </classes>
-  </test> <!-- ExpediaSearchPage(failed) -->
-</suite> <!-- Failed suite [TestSuite] -->
+  </test> <!-- TestNG parameter test(failed) -->
+  <test thread-count="5" name="TestNG parameter and parallel test(failed)">
+    <parameter name="toCity" value="pune"/>
+    <parameter name="departureDate" value="30"/>
+    <parameter name="fromCity" value="Bengaluru"/>
+    <parameter name="browserType" value="chrome"/>
+    <classes>
+      <class name="pages.classes.TestNGParallelAndMultipleBrowser">
+        <methods>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="closeModal"/>
+        </methods>
+      </class> <!-- pages.classes.TestNGParallelAndMultipleBrowser -->
+    </classes>
+  </test> <!-- TestNG parameter and parallel test(failed) -->
+</suite> <!-- Failed suite [testSuite] -->
