@@ -1,4 +1,4 @@
-<suite name="testSuite">
+<suite name="testSuite" parallel="tests">
 <test name="TestNG parameter test" preserve-order="true">
 <parameter name="fromCity" value="Bengaluru"></parameter>
 <parameter name="toCity" value="pune"></parameter>

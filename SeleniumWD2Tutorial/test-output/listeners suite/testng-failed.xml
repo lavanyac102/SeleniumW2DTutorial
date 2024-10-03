@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [listeners suite]">
+  <listeners>
+    <listener class-name="listenersPackage.CustomISuiteListener"/>
+  </listeners>
+  <test thread-count="5" name="iinvokemethodListener1(failed)">
+    <classes>
+      <class name="pages.classes.TestNG_ISuiteListener">
+        <methods>
+          <include name="testMethod2"/>
+          <include name="setup"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- pages.classes.TestNG_ISuiteListener -->
+    </classes>
+  </test> <!-- iinvokemethodListener1(failed) -->
+  <test thread-count="5" name="iinvokemethodListener2(failed)">
+    <classes>
+      <class name="pages.classes.TestNG_ISuiteListener">
+        <methods>
+          <include name="testMethod2"/>
+          <include name="setup"/>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- pages.classes.TestNG_ISuiteListener -->
+    </classes>
+  </test> <!-- iinvokemethodListener2(failed) -->
+</suite> <!-- Failed suite [listeners suite] -->

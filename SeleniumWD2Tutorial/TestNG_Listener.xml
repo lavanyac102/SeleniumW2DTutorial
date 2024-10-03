@@ -1,0 +1,15 @@
+<suite name = "listeners suite">
+<listeners>
+	<listener class-name="listenersPackage.CustomISuiteListener"/>
+</listeners>
+	<test name="iinvokemethodListener1">
+		<classes>
+			<class name="pages.classes.TestNG_ISuiteListener"></class>
+		</classes>
+	</test>
+	<test name="iinvokemethodListener2">
+		<classes>
+			<class name="pages.classes.TestNG_ISuiteListener"></class>
+		</classes>
+	</test>
+</suite>

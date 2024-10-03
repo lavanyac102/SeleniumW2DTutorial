@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="loginLetsKodeIt">
+	<test name="takessonFailure" preserve-order="true">
+		<parameter name="mailid" value="test@email.com"/>
+		<parameter name="password" value ="abcabc"/>
+		<classes>
+			<class name="pages.classes.LoginScriptValidationLetsKodeIt"></class>
+		</classes>
+	
+	
+	</test>
+
+
+
+</suite>

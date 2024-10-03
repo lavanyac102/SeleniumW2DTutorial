@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="tutorial.selenium.TestNG_TestCASe">
+      <class name="tutorial.selenium.AutoSuggestion">
         <methods>
           <include name="setUp"/>
-          <include name="afterMethod"/>
-          <include name="checkFlight"/>
+          <include name="handleAutoSuggestions"/>
         </methods>
-      </class> <!-- tutorial.selenium.TestNG_TestCASe -->
+      </class> <!-- tutorial.selenium.AutoSuggestion -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
